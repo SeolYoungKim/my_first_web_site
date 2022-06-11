@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-11T08:47:36.449Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="wEoIcTQo-crqYlM1vVXe" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-11T09:26:09.714Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="c8Q-kDGwhF-ZPDSO8zjq" version="19.0.3" type="github">
   <diagram id="JbCQnU6Gqlp0rtrQ4BnU" name="Page-1">
-    <mxGraphModel dx="2266" dy="1155" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1946" dy="1145" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -101,6 +101,54 @@
             <mxPoint x="101" y="1" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="G0UveMpTDIHV00YRj6CX-48" value="고민 상자 뽑기 통 (개인 페이지 객체)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-416" y="560" width="372" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="G0UveMpTDIHV00YRj6CX-50" value="유저 ID : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;" vertex="1" parent="G0UveMpTDIHV00YRj6CX-48">
+          <mxGeometry y="30" width="372" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0UveMpTDIHV00YRj6CX-49" value="고민 작성 버튼 : &lt;form&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;" vertex="1" parent="G0UveMpTDIHV00YRj6CX-48">
+          <mxGeometry y="60" width="372" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0UveMpTDIHV00YRj6CX-51" value="뽑기 횟수  (다른 사람 페이지에 고민 해결 메세지 작성해주면 생성됨) : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;" vertex="1" parent="G0UveMpTDIHV00YRj6CX-48">
+          <mxGeometry y="90" width="372" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0UveMpTDIHV00YRj6CX-52" value="고민 해결 메세지 (다른 사람이 보낸거) : List? Map? -&gt; msg object " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;" vertex="1" parent="G0UveMpTDIHV00YRj6CX-48">
+          <mxGeometry y="120" width="372" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0UveMpTDIHV00YRj6CX-53" value="랜덤 방문 버튼 : &lt;form&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;" vertex="1" parent="G0UveMpTDIHV00YRj6CX-48">
+          <mxGeometry y="150" width="372" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0UveMpTDIHV00YRj6CX-58" value="고민 작성 페이지" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-416" y="769" width="221" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="G0UveMpTDIHV00YRj6CX-59" value="텍스트 입력 화면 &lt;form&gt;    " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;" vertex="1" parent="G0UveMpTDIHV00YRj6CX-58">
+          <mxGeometry y="30" width="221" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0UveMpTDIHV00YRj6CX-60" value="확인 버튼 &lt;form&gt; 태그로 POST 전송" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;" vertex="1" parent="G0UveMpTDIHV00YRj6CX-58">
+          <mxGeometry y="60" width="221" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0UveMpTDIHV00YRj6CX-61" value="확인 버튼 후 고민 상자로 redirect" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;" vertex="1" parent="G0UveMpTDIHV00YRj6CX-58">
+          <mxGeometry y="90" width="221" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0UveMpTDIHV00YRj6CX-69" value="다른 사람 페이지" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="-416" y="916" width="221" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="G0UveMpTDIHV00YRj6CX-70" value="텍스트 입력 칸 &lt;form&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;" vertex="1" parent="G0UveMpTDIHV00YRj6CX-69">
+          <mxGeometry y="30" width="221" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0UveMpTDIHV00YRj6CX-71" value="작성 버튼 &lt;form&gt; 태그로 POST 전송" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;" vertex="1" parent="G0UveMpTDIHV00YRj6CX-69">
+          <mxGeometry y="60" width="221" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0UveMpTDIHV00YRj6CX-72" value="상대 페이지에 고민 해결 메세지 생성" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;" vertex="1" parent="G0UveMpTDIHV00YRj6CX-69">
+          <mxGeometry y="90" width="221" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0UveMpTDIHV00YRj6CX-73" value="랜덤 방문 버튼    " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;" vertex="1" parent="G0UveMpTDIHV00YRj6CX-69">
+          <mxGeometry y="120" width="221" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0UveMpTDIHV00YRj6CX-74" value="홈 가기 버튼" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;hachureGap=4;" vertex="1" parent="G0UveMpTDIHV00YRj6CX-69">
+          <mxGeometry y="150" width="221" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
